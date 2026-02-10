@@ -25,8 +25,9 @@ body {
 }
 
 #game-text {
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  text-align: center;
   opacity: 0;
   transform: translateY(20px);
 }
