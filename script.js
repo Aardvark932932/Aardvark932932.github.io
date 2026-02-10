@@ -87,3 +87,16 @@ function showNode(nodeKey) {
 
 // Start the game
 showNode("start");
+
+.letter {
+  display: inline-block;
+  animation: jitter 0.15s infinite;
+}
+
+@keyframes jitter {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(1px, -1px); }
+  50%  { transform: translate(-1px, 1px); }
+  75%  { transform: translate(1px, 1px); }
+  100% { transform: translate(0, 0); }
+}
